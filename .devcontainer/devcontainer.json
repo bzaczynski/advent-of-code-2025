@@ -1,10 +1,7 @@
 {
   "name": "🎄 Advent of Code 2025 🎅",
   "image": "mcr.microsoft.com/devcontainers/python:3.14-trixie",
-  "postCreateCommand": {
-    "install-uv": "curl -LsSf https://astral.sh/uv/install.sh | sh",
-    "uv-sync": "uv sync"
-  },
+  "postCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh && uv sync",
   "customizations": {
     "codespaces": {
       "openFiles": [
